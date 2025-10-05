@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -16,9 +17,9 @@
         <activity
             android:name=".MustNewsActivity"
             android:exported="false" />
-        <activity
-            android:name=".SoftPowerNewsActivity"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".SoftPowerNewsActivity"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".NewsActivity"
             android:exported="false" />
